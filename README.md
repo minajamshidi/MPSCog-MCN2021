@@ -1,6 +1,8 @@
 # MPSCog2021
 the tutorials for Max Planck School of Cognition - Methods in Cognitive Neuroscience - June 2021
 
+- EEG/MEG pre-processing using MNE python and scipy/numpy.
+
 (c) Mina Jamshidi Idaji @ Neurology Dept of MPI CBS
 (jamshidi@cbs.mpg.de) (minajamshidi91@gmail.com)
 
