@@ -1,5 +1,7 @@
 # MPSCog2021
 the tutorials for Max Planck School of Cognition - Methods in Cognitive Neuroscience - June 2021
+(c) Mina Jamshidi Idaji @ Neurology Dept of MPI CBS
+    minajamshidi91@gmail.com
 
 Notes:
 * regarding the Data: the LEMON dataset. The data files are not included in this repository. Please download them a prior. The instructions are given in Data section of the first tutorial (EEG_tutorial_part1).
