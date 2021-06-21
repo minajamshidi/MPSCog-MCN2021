@@ -110,14 +110,14 @@ def extract_ec_condition(raw):
     :param raw: MNE raw class
     :return: MNE raw object with oly EC data.
     """
-    events_ = mne.events_from_annotations(raw)  # extract the events
+    events_ = mne.events_from_annotations(raw, event_id=None)  # extract the events
     events_mat = events_[0]
     annot_onset = events_mat[:, 0]
     annot_description = events_mat[:, -1]
 
-    # mark the 210 events
+    # mark the 5 events
     ec_array = np.zeros(annot_description.shape)
-    ec_array[annot_description == 210] = 1
+    ec_array[annot_description == 5] = 1
 
     # find the onset and offset of the condition
     ec_array_diff = np.diff(ec_array)
